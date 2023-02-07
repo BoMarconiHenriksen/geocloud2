@@ -20,7 +20,7 @@ use \app\conf\App;
 <link rel="stylesheet" href="/js/ext/examples/ux/gridfilters/css/GridFilters.css"/>
 <link rel="stylesheet" href="/js/ext/examples/ux/gridfilters/css/RangeMenu.css"/>
 
-<!-- build:css /css/build/styles.min.css -->
+<!-- build:css /css/build/styles.min.8d6cdb2ca0bb94a0.8d6cdb2ca0bb94a0.css -->
 <link rel="stylesheet" href="/js/bootstrap/css/bootstrap.icons.min.css"/>
 <link rel="stylesheet" href="/css/jquery.plupload.queue.css"/>
 <link rel="stylesheet" href="/css/styles.css"/>
@@ -216,8 +216,8 @@ use \app\conf\App;
 <script src="/js/openlayers/defs/EPSG3857.js"></script>
 <!-- /build -->
 
-<script src="/api/v1/js/api.js"></script>
-<script src="/api/v3/js/geocloud.js"></script>
+<script src="/api/v1/js/api.083ab87cf6660e0e.083ab87cf6660e0e.js"></script>
+<script src="/api/v3/js/geocloud.f6ba54fe1882f9e2.f6ba54fe1882f9e2.js"></script>
 
 </body>
 </html>

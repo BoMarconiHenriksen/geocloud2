@@ -46,7 +46,7 @@ if (typeof gc2map === "undefined") {
                         typeof Hogan !== "undefined" &&
                         typeof window.setBaseLayers !== "undefined"
                     ) {
-                        $.getScript(host + "/api/v3/js/geocloud.js?a439ffa6e8bc2dd0#grunt-cache-bust");
+                        $.getScript(host + "/api/v3/js/geocloud.f6ba54fe1882f9e2.f6ba54fe1882f9e2.js?a439ffa6e8bc2dd0#grunt-cache-bust");
                         $.getScript(host + "/apps/widgets/gc2map/js/main.js?a431ad6b702c34a3#grunt-cache-bust");
                         $.getScript(host + "/apps/widgets/gc2map/js/templates.js?d65e510c44da571d#grunt-cache-bust");
                         L.Icon.Default.imagePath = host + "/js/leaflet/images";
@@ -77,6 +77,8 @@ if (typeof gc2map === "undefined") {
                     type: 'text/css',
                     href: host + '/js/leaflet/plugins/markercluster/MarkerCluster.Default.css?fe15deedc44b317d#grunt-cache-bust'
                 }).appendTo('head');
+
+
                 $('<link/>').attr({
                     rel: 'stylesheet',
                     type: 'text/css',
